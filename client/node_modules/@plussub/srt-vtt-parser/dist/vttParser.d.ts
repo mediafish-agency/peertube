@@ -1,0 +1,3 @@
+import { ParsedResult } from './types';
+
+export declare const vttParser: (raw: string) => ParsedResult;

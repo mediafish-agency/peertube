@@ -1,0 +1,1 @@
+{"version":3,"file":"user-video-history-exporter.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/user-import-export/exporters/user-video-history-exporter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,0BAA0B,EAAE,MAAM,2BAA2B,CAAA;AACtE,OAAO,EAAE,oBAAoB,EAAE,MAAM,6BAA6B,CAAA;AAGlE,qBAAa,wBAAyB,SAAQ,oBAAoB,CAAE,0BAA0B,CAAC;IAEvF,MAAM;cAWH,0BAA0B;;;CAKpC"}

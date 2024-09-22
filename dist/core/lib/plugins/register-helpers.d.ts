@@ -1,0 +1,42 @@
+import express from 'express';
+import { Server } from 'http';
+import { RegisterServerHookOptions, RegisterServerSettingOptions, SettingsChangeCallback } from '@peertube/peertube-models';
+import { PluginModel } from '../../models/server/plugin.js';
+import { RegisterServerAuthExternalOptions, RegisterServerAuthPassOptions, RegisterServerOptions, RegisterServerWebSocketRouteOptions } from '../../types/plugins/index.js';
+export declare class RegisterHelpers {
+    private readonly npmName;
+    private readonly plugin;
+    private readonly server;
+    private readonly onHookAdded;
+    private readonly transcodingProfiles;
+    private readonly transcodingEncoders;
+    private settings;
+    private idAndPassAuths;
+    private externalAuths;
+    private readonly onSettingsChangeCallbacks;
+    private readonly webSocketRoutes;
+    private readonly router;
+    private readonly videoConstantManagerFactory;
+    constructor(npmName: string, plugin: PluginModel, server: Server, onHookAdded: (options: RegisterServerHookOptions) => void);
+    buildRegisterHelpers(): RegisterServerOptions;
+    reinitVideoConstants(npmName: string): void;
+    reinitTranscodingProfilesAndEncoders(npmName: string): void;
+    getSettings(): RegisterServerSettingOptions[];
+    getRouter(): express.Router;
+    getIdAndPassAuths(): RegisterServerAuthPassOptions[];
+    getExternalAuths(): RegisterServerAuthExternalOptions[];
+    getOnSettingsChangedCallbacks(): SettingsChangeCallback[];
+    getWebSocketRoutes(): RegisterServerWebSocketRouteOptions[];
+    private buildGetRouter;
+    private buildRegisterWebSocketRoute;
+    private buildRegisterSetting;
+    private buildRegisterHook;
+    private buildRegisterIdAndPassAuth;
+    private buildRegisterExternalAuth;
+    private buildUnregisterExternalAuth;
+    private buildUnregisterIdAndPassAuth;
+    private buildSettingsManager;
+    private buildStorageManager;
+    private buildTranscodingManager;
+}
+//# sourceMappingURL=register-helpers.d.ts.map

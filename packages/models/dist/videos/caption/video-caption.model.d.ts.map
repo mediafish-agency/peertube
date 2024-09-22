@@ -1,0 +1,1 @@
+{"version":3,"file":"video-caption.model.d.ts","sourceRoot":"","sources":["../../../src/videos/caption/video-caption.model.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,4BAA4B,CAAA;AAE1D,MAAM,WAAW,YAAY;IAC3B,QAAQ,EAAE,aAAa,CAAC,MAAM,CAAC,CAAA;IAC/B,WAAW,EAAE,MAAM,CAAA;IACnB,sBAAsB,EAAE,OAAO,CAAA;IAC/B,SAAS,EAAE,MAAM,CAAA;CAClB"}

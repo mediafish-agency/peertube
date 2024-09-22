@@ -1,0 +1,39 @@
+{
+  "name": "@peertube/xliffmerge",
+  "version": "2.0.4",
+  "description": "Merge XLIFF used by PeerTube",
+  "private": false,
+  "bin": {
+    "xliffmerge": "dist/bin/xliffmerge.js"
+  },
+  "engines": {
+    "node": ">=10.0"
+  },
+  "scripts": {
+    "build": "rm -rf dist/ && tsc && cp -r bin/ dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chocobozzz/ngx-i18nsupport.git"
+  },
+  "keywords": [
+    "i18n",
+    "xliff"
+  ],
+  "author": "Martin Roob <martinroob65@gmail.com> (www.roobsoft.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chocobozzz/ngx-i18nsupport/issues"
+  },
+  "homepage": "https://github.com/Chocobozzz/ngx-i18nsupport#readme",
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.7",
+    "chalk": "^2.4.1",
+    "he": "^1.2.0",
+    "tokenizr": "^1.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/tokenizr": "^1.6.1"
+  }
+}

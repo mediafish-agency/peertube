@@ -1,0 +1,1 @@
+{"version":3,"file":"process-view.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/activitypub/process/process-view.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,YAAY,EAAE,MAAM,2BAA2B,CAAA;AACxD,OAAO,EAAE,kBAAkB,EAAE,MAAM,+CAA+C,CAAA;AAKlF,iBAAe,mBAAmB,CAAE,OAAO,EAAE,kBAAkB,CAAC,YAAY,CAAC,iBAI5E;AAID,OAAO,EACL,mBAAmB,EACpB,CAAA"}

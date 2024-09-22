@@ -1,0 +1,1 @@
+{"version":3,"file":"process-undo.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/activitypub/process/process-undo.ts"],"names":[],"mappings":"AAAA,OAAO,EAML,YAAY,EACZ,kBAAkB,EAEnB,MAAM,2BAA2B,CAAA;AAUlC,OAAO,EAAE,kBAAkB,EAAE,MAAM,+CAA+C,CAAA;AAMlF,iBAAe,mBAAmB,CAAE,OAAO,EAAE,kBAAkB,CAAC,YAAY,CAAC,kBAAkB,CAAC,CAAC,gBA+BhG;AAID,OAAO,EACL,mBAAmB,EACpB,CAAA"}

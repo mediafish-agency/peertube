@@ -1,0 +1,1 @@
+{"version":3,"file":"dnt.d.ts","sourceRoot":"","sources":["../../../server/core/middlewares/dnt.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,OAAO,MAAM,SAAS,CAAA;AAElC,QAAA,MAAM,mBAAmB,gBAAY,OAAO,CAAC,QAAQ,QAAQ,OAAO,CAAC,YAAY,SAMhF,CAAA;AAID,OAAO,EACL,mBAAmB,EACpB,CAAA"}

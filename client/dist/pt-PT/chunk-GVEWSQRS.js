@@ -1,0 +1,2 @@
+import{c as a}from"./chunk-GP5LX4CA.js";import{$ as c,Y as r}from"./chunk-4A7FW7VV.js";import{j as o}from"./chunk-K6ICEIKK.js";var t=class t{constructor(e){this.videoService=e}resolve(e){let i=e.params.videoId;return this.videoService.getVideo({videoId:i})}};o(t,"\u0275fac",function(i){return new(i||t)(c(a))}),o(t,"\u0275prov",r({token:t,factory:t.\u0275fac}));var n=t;export{n as a};
+/**i18n:2f710d33ac9c4f1483429afcadbb48fcf333aac524700807e70179670fe63b48*/

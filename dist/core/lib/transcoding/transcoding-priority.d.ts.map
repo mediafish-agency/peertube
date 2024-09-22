@@ -1,0 +1,1 @@
+{"version":3,"file":"transcoding-priority.d.ts","sourceRoot":"","sources":["../../../../server/core/lib/transcoding/transcoding-priority.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,OAAO,EAAE,MAAM,+BAA+B,CAAA;AAEvD,wBAAsB,yBAAyB,CAAE,OAAO,EAAE;IACxD,IAAI,EAAE,OAAO,CAAA;IACb,QAAQ,EAAE,MAAM,CAAA;IAChB,IAAI,EAAE,KAAK,GAAG,QAAQ,CAAA;CACvB,mBAeA"}

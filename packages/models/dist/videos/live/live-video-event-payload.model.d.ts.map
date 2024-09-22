@@ -1,0 +1,1 @@
+{"version":3,"file":"live-video-event-payload.model.d.ts","sourceRoot":"","sources":["../../../src/videos/live/live-video-event-payload.model.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,wBAAwB,CAAA;AAEvD,MAAM,WAAW,qBAAqB;IACpC,KAAK,CAAC,EAAE,cAAc,CAAA;IAEtB,OAAO,CAAC,EAAE,MAAM,CAAA;CACjB"}

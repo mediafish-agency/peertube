@@ -1,0 +1,1 @@
+{"version":3,"file":"move-to-object-storage.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/job-queue/handlers/move-to-object-storage.ts"],"names":[],"mappings":"AAUA,OAAO,EAAE,GAAG,EAAE,MAAM,QAAQ,CAAA;AAO5B,wBAAsB,0BAA0B,CAAE,GAAG,EAAE,GAAG,iBAezD;AAED,wBAAsB,4BAA4B,CAAE,GAAG,EAAE,GAAG,EAAE,GAAG,EAAE,GAAG,iBASrE"}

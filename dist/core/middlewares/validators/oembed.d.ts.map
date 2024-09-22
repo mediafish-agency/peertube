@@ -1,0 +1,1 @@
+{"version":3,"file":"oembed.d.ts","sourceRoot":"","sources":["../../../../server/core/middlewares/validators/oembed.ts"],"names":[],"mappings":"AAAA,OAAO,OAAO,MAAM,SAAS,CAAA;AAsC7B,QAAA,MAAM,eAAe,wDAaP,OAAO,CAAC,OAAO,OAAO,OAAO,CAAC,QAAQ,QAAQ,OAAO,CAAC,YAAY,sBAmG/E,CAAA;AAID,OAAO,EACL,eAAe,EAChB,CAAA"}

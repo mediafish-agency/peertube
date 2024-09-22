@@ -1,0 +1,1 @@
+{"version":3,"file":"transcoding-job-builder.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/job-queue/handlers/transcoding-job-builder.ts"],"names":[],"mappings":"AAMA,OAAO,EAAE,GAAG,EAAE,MAAM,QAAQ,CAAA;AAI5B,iBAAe,4BAA4B,CAAE,GAAG,EAAE,GAAG,iBA+BpD;AAID,OAAO,EACL,4BAA4B,EAC7B,CAAA"}

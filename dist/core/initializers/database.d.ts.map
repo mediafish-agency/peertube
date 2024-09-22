@@ -1,0 +1,1 @@
+{"version":3,"file":"database.d.ts","sourceRoot":"","sources":["../../../server/core/initializers/database.ts"],"names":[],"mappings":"AA8BA,OAAO,EAAE,SAAS,IAAI,mBAAmB,EAAE,MAAM,sBAAsB,CAAA;AA2DvE,eAAO,MAAM,mBAAmB,qBAuB9B,CAAA;AAEF,wBAAgB,4BAA4B,SAQ3C;AAED,wBAAsB,kBAAkB,CAAE,MAAM,EAAE,OAAO,iBAyExD"}

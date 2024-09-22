@@ -1,0 +1,1 @@
+{"version":3,"file":"process-like.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/activitypub/process/process-like.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,2BAA2B,CAAA;AAOxD,OAAO,EAAE,kBAAkB,EAAE,MAAM,+CAA+C,CAAA;AAIlF,iBAAe,mBAAmB,CAAE,OAAO,EAAE,kBAAkB,CAAC,YAAY,CAAC,iBAI5E;AAID,OAAO,EACL,mBAAmB,EACpB,CAAA"}

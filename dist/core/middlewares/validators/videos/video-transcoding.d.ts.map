@@ -1,0 +1,1 @@
+{"version":3,"file":"video-transcoding.d.ts","sourceRoot":"","sources":["../../../../../server/core/middlewares/validators/videos/video-transcoding.ts"],"names":[],"mappings":"AAKA,OAAO,OAAO,MAAM,SAAS,CAAA;AAK7B,QAAA,MAAM,0BAA0B,wDAWlB,OAAO,CAAC,OAAO,OAAO,OAAO,CAAC,QAAQ,QAAQ,OAAO,CAAC,YAAY,sBA6B/E,CAAA;AAID,OAAO,EACL,0BAA0B,EAC3B,CAAA"}

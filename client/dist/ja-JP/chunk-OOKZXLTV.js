@@ -1,0 +1,2 @@
+import{$ as i,B as m,Kc as n,Ue as p,Y as a,gg as s}from"./chunk-4A7FW7VV.js";import{j as o}from"./chunk-K6ICEIKK.js";var t=class t{constructor(e,r){this.authHttp=e;this.restExtractor=r}removeCommentsOf(e){let r=t.BASE_BULK_URL+"/remove-comments-of";return this.authHttp.post(r,e).pipe(m(f=>this.restExtractor.handleError(f)))}};o(t,"BASE_BULK_URL",p.apiUrl+"/api/v1/bulk"),o(t,"\u0275fac",function(r){return new(r||t)(i(n),i(s))}),o(t,"\u0275prov",a({token:t,factory:t.\u0275fac}));var c=t;export{c as a};
+/**i18n:2f710d33ac9c4f1483429afcadbb48fcf333aac524700807e70179670fe63b48*/

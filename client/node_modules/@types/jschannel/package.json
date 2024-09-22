@@ -1,0 +1,30 @@
+{
+    "name": "@types/jschannel",
+    "version": "1.0.6",
+    "description": "TypeScript definitions for jschannel",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jschannel",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Yitzchok Gottlieb",
+            "githubUsername": "yitzchok",
+            "url": "https://github.com/yitzchok"
+        },
+        {
+            "name": "McFlat",
+            "githubUsername": "McFlat",
+            "url": "https://github.com/McFlat"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/jschannel"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "058dd0ad35a5c8f3c98f52a4f55e584576515bc1c936c0683639d6a533bf873e",
+    "typeScriptVersion": "4.5"
+}

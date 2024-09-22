@@ -1,0 +1,1 @@
+{"version":3,"file":"process-update.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/activitypub/process/process-update.ts"],"names":[],"mappings":"AAAA,OAAO,EAGL,cAAc,EACd,oBAAoB,EAIrB,MAAM,2BAA2B,CAAA;AASlC,OAAO,EAAE,kBAAkB,EAAE,MAAM,+CAA+C,CAAA;AASlF,iBAAe,qBAAqB,CAAE,OAAO,EAAE,kBAAkB,CAAC,cAAc,CAAC,oBAAoB,CAAC,CAAC,gBA2BtG;AAID,OAAO,EACL,qBAAqB,EACtB,CAAA"}

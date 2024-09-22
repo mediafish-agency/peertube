@@ -1,0 +1,1 @@
+{"version":3,"file":"user-exporter.d.ts","sourceRoot":"","sources":["../../../../server/core/lib/user-import-export/user-exporter.ts"],"names":[],"mappings":"AAMA,OAAO,EAAgB,WAAW,EAAE,MAAM,+BAA+B,CAAA;AA+BzE,qBAAa,YAAY;IAEvB,OAAO,CAAC,OAAO,CAAU;IAEnB,MAAM,CAAE,WAAW,EAAE,WAAW;IA0DtC,OAAO,CAAC,SAAS;IAyEjB,OAAO,CAAC,cAAc;IA0FtB,OAAO,CAAC,mBAAmB;IAsC3B,OAAO,CAAC,UAAU;CAGnB"}

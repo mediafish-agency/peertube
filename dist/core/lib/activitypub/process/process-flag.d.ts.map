@@ -1,0 +1,1 @@
+{"version":3,"file":"process-flag.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/activitypub/process/process-flag.ts"],"names":[],"mappings":"AAKA,OAAO,EAAc,YAAY,EAAE,MAAM,2BAA2B,CAAA;AAKpE,OAAO,EAAE,kBAAkB,EAAE,MAAM,+CAA+C,CAAA;AAGlF,iBAAe,mBAAmB,CAAE,OAAO,EAAE,kBAAkB,CAAC,YAAY,CAAC,iBAI5E;AAID,OAAO,EACL,mBAAmB,EACpB,CAAA"}

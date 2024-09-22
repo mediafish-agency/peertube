@@ -1,0 +1,1 @@
+{"version":3,"file":"activitypub-follow.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/job-queue/handlers/activitypub-follow.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,GAAG,EAAE,MAAM,QAAQ,CAAA;AAgB5B,iBAAe,wBAAwB,CAAE,GAAG,EAAE,GAAG,wEA4ChD;AAGD,OAAO,EACL,wBAAwB,EACzB,CAAA"}

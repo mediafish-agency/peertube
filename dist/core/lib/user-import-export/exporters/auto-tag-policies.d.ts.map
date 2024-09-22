@@ -1,0 +1,1 @@
+{"version":3,"file":"auto-tag-policies.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/user-import-export/exporters/auto-tag-policies.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,mBAAmB,EAAE,MAAM,2BAA2B,CAAA;AAE/D,OAAO,EAAE,oBAAoB,EAAE,MAAM,6BAA6B,CAAA;AAElE,qBAAa,uBAAwB,SAAQ,oBAAoB,CAAE,mBAAmB,CAAC;IAE/E,MAAM;cAMH,mBAAmB;;;CAK7B"}

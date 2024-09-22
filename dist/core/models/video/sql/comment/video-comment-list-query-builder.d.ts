@@ -1,0 +1,61 @@
+import { AbstractRunQuery } from '../../../shared/index.js';
+import { Model, Sequelize, Transaction } from 'sequelize';
+export interface ListVideoCommentsOptions {
+    selectType: 'api' | 'feed' | 'comment-only';
+    autoTagOfAccountId?: number;
+    start?: number;
+    count?: number;
+    sort?: string;
+    videoId?: number;
+    threadId?: number;
+    accountId?: number;
+    blockerAccountIds?: number[];
+    isThread?: boolean;
+    notDeleted?: boolean;
+    isLocal?: boolean;
+    onLocalVideo?: boolean;
+    onPublicVideo?: boolean;
+    videoChannelOwnerId?: number;
+    videoAccountOwnerId?: number;
+    heldForReview: boolean;
+    heldForReviewAccountIdException?: number;
+    autoTagOneOf?: string[];
+    search?: string;
+    searchAccount?: string;
+    searchVideo?: string;
+    includeReplyCounters?: boolean;
+    transaction?: Transaction;
+}
+export declare class VideoCommentListQueryBuilder extends AbstractRunQuery {
+    protected readonly sequelize: Sequelize;
+    private readonly options;
+    private readonly tableAttributes;
+    private innerQuery;
+    private select;
+    private joins;
+    private innerSelect;
+    private innerJoins;
+    private innerLateralJoins;
+    private innerWhere;
+    private readonly built;
+    constructor(sequelize: Sequelize, options: ListVideoCommentsOptions);
+    listComments<T extends Model>(): Promise<T[]>;
+    countComments(): Promise<any>;
+    private buildListQuery;
+    private buildInnerListQuery;
+    private buildCountQuery;
+    private buildWhere;
+    private buildAccountJoin;
+    private buildVideoJoin;
+    private buildVideoChannelJoin;
+    private buildAvatarsJoin;
+    private buildAutomaticTagsJoin;
+    private buildListSelect;
+    private buildInnerListSelect;
+    private getBlockWhere;
+    private buildTotalRepliesSelect;
+    private buildAuthorTotalRepliesSelect;
+    private getOrder;
+    private getInnerLimit;
+}
+//# sourceMappingURL=video-comment-list-query-builder.d.ts.map

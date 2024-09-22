@@ -1,0 +1,113 @@
+import { ActivityIconObject, ActorImageType_Type, type ActivityPubActorType } from '@peertube/peertube-models';
+import { AttributesOnly } from '@peertube/peertube-typescript-utils';
+import { Transaction } from 'sequelize';
+import { Where } from 'sequelize/types/utils';
+import { MActor, MActorAPAccount, MActorAPChannel, MActorAccountChannelId, MActorFollowersUrl, MActorFormattable, MActorFull, MActorHost, MActorHostOnly, MActorId, MActorSummaryFormattable, MActorUrl, MActorWithInboxes } from '../../types/models/index.js';
+import { AccountModel } from '../account/account.js';
+import { ServerModel } from '../server/server.js';
+import { SequelizeModel } from '../shared/index.js';
+import { VideoChannelModel } from '../video/video-channel.js';
+import { ActorFollowModel } from './actor-follow.js';
+import { ActorImageModel } from './actor-image.js';
+export declare const unusedActorAttributesForAPI: (keyof AttributesOnly<ActorModel>)[];
+export declare class ActorModel extends SequelizeModel<ActorModel> {
+    type: ActivityPubActorType;
+    preferredUsername: string;
+    url: string;
+    publicKey: string;
+    privateKey: string;
+    followersCount: number;
+    followingCount: number;
+    inboxUrl: string;
+    outboxUrl: string;
+    sharedInboxUrl: string;
+    followersUrl: string;
+    followingUrl: string;
+    remoteCreatedAt: Date;
+    createdAt: Date;
+    updatedAt: Date;
+    Avatars: Awaited<ActorImageModel>[];
+    Banners: Awaited<ActorImageModel>[];
+    ActorFollowing: Awaited<ActorFollowModel>[];
+    ActorFollowers: Awaited<ActorFollowModel>[];
+    serverId: number;
+    Server: Awaited<ServerModel>;
+    Account: Awaited<AccountModel>;
+    VideoChannel: Awaited<VideoChannelModel>;
+    static getSQLAttributes(tableName: string, aliasPrefix?: string): string[];
+    static getSQLAPIAttributes(tableName: string, aliasPrefix?: string): string[];
+    static wherePreferredUsername(preferredUsername: string, colName?: string): Where;
+    static load(id: number): Promise<MActor>;
+    static loadFull(id: number): Promise<MActorFull>;
+    static loadAccountActorFollowerUrlByVideoId(videoId: number, transaction: Transaction): Promise<MActorId & MActorFollowersUrl>;
+    static listByFollowersUrls(followersUrls: string[], transaction?: Transaction): Promise<MActorFull[]>;
+    static loadLocalByName(preferredUsername: string, transaction?: Transaction): Promise<MActorFull>;
+    static loadLocalUrlByName(preferredUsername: string, transaction?: Transaction): Promise<MActorUrl>;
+    static loadByNameAndHost(preferredUsername: string, host: string): Promise<MActorFull>;
+    static loadByUrl(url: string, transaction?: Transaction): Promise<MActorAccountChannelId>;
+    static loadByUrlAndPopulateAccountAndChannel(url: string, transaction?: Transaction): Promise<MActorFull>;
+    static rebuildFollowsCount(ofId: number, type: 'followers' | 'following', transaction?: Transaction): Promise<[affectedCount: number]>;
+    static loadAccountActorByVideoId(videoId: number, transaction: Transaction): Promise<MActor>;
+    getSharedInbox(this: MActorWithInboxes): string;
+    toFormattedSummaryJSON(this: MActorSummaryFormattable): {
+        url: string;
+        name: string;
+        host: string;
+        avatars: import("@peertube/peertube-models").ActorImage[];
+    };
+    toFormattedJSON(this: MActorFormattable, includeBanner?: boolean): {
+        id: number;
+        hostRedundancyAllowed: boolean;
+        followingCount: number;
+        followersCount: number;
+        createdAt: Date;
+        banners: import("@peertube/peertube-models").ActorImage[];
+        url: string;
+        name: string;
+        host: string;
+        avatars: import("@peertube/peertube-models").ActorImage[];
+    };
+    toActivityPubObject(this: MActorAPChannel | MActorAPAccount, name: string): Promise<{
+        '@context': (string | {
+            [id: string]: string;
+        })[];
+    } & {
+        type: ActivityPubActorType;
+        id: string;
+        following: string;
+        followers: string;
+        playlists: string;
+        inbox: string;
+        outbox: string;
+        preferredUsername: string;
+        url: string;
+        name: string;
+        endpoints: {
+            sharedInbox: string;
+        };
+        publicKey: {
+            id: string;
+            owner: string;
+            publicKeyPem: string;
+        };
+        published: string;
+        icon: ActivityIconObject[];
+        image: ActivityIconObject[];
+    }>;
+    getFollowerSharedInboxUrls(t: Transaction): Promise<string[]>;
+    getFollowingUrl(): string;
+    getFollowersUrl(): string;
+    getPlaylistsUrl(): string;
+    getPublicKeyUrl(): string;
+    isOwned(): boolean;
+    getWebfingerUrl(this: MActorHost): string;
+    getIdentifier(this: MActorHost): string;
+    getFullIdentifier(this: MActorHost): string;
+    getHost(this: MActorHostOnly): string;
+    getRedundancyAllowed(): boolean;
+    hasImage(type: ActorImageType_Type): boolean;
+    getMaxQualityImage(type: ActorImageType_Type): ActorImageModel;
+    isOutdated(): boolean;
+    getCreatedAt(this: MActorAPChannel | MActorAPAccount | MActorFormattable): Date;
+}
+//# sourceMappingURL=actor.d.ts.map

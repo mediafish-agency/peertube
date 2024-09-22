@@ -1,0 +1,2 @@
+import{Da as s,da as n,ua as r}from"./chunk-4A7FW7VV.js";import{j as t}from"./chunk-K6ICEIKK.js";var e=class e{constructor(i){this.host=i}ngAfterViewInit(){this.host.nativeElement.focus({preventScroll:!0})}};t(e,"\u0275fac",function(c){return new(c||e)(s(r))}),t(e,"\u0275dir",n({type:e,selectors:[["","myAutofocus",""]],standalone:!0}));var o=e;export{o as a};
+/**i18n:2f710d33ac9c4f1483429afcadbb48fcf333aac524700807e70179670fe63b48*/

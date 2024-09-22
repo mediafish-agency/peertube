@@ -1,0 +1,1 @@
+{"version":3,"file":"blocklist-export.model.d.ts","sourceRoot":"","sources":["../../../src/import-export/peertube-export-format/blocklist-export.model.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,mBAAmB;IAClC,SAAS,EAAE;QACT,IAAI,EAAE,MAAM,CAAA;KACb,EAAE,CAAA;IAEH,MAAM,EAAE;QACN,MAAM,EAAE,MAAM,CAAA;KACf,EAAE,CAAA;CACJ"}

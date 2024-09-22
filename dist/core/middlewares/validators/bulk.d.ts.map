@@ -1,0 +1,1 @@
+{"version":3,"file":"bulk.d.ts","sourceRoot":"","sources":["../../../../server/core/middlewares/validators/bulk.ts"],"names":[],"mappings":"AAAA,OAAO,OAAO,MAAM,SAAS,CAAA;AAM7B,QAAA,MAAM,6BAA6B,wDAMrB,OAAO,CAAC,OAAO,OAAO,OAAO,CAAC,QAAQ,QAAQ,OAAO,CAAC,YAAY,sBAgB/E,CAAA;AAID,OAAO,EACL,6BAA6B,EAC9B,CAAA"}

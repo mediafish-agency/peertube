@@ -1,0 +1,3 @@
+import { ParsedResult } from './types';
+
+export declare const srtParser: (raw: string) => ParsedResult;

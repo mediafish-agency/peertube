@@ -1,0 +1,1 @@
+{"version":3,"file":"sequelize-type.d.ts","sourceRoot":"","sources":["../../../../server/core/models/shared/sequelize-type.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,qCAAqC,CAAA;AACpE,OAAO,EAAE,KAAK,EAAE,MAAM,sBAAsB,CAAA;AAE5C,8BAAsB,cAAc,CAAE,CAAC,CAAE,SAAQ,KAAK,CAAC,OAAO,CAAC,cAAc,CAAC,CAAC,CAAC,CAAC,CAAC;IAChF,EAAE,EAAE,MAAM,CAAA;CACX"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"video-token.d.ts","sourceRoot":"","sources":["../../../../../server/core/middlewares/validators/videos/video-token.ts"],"names":[],"mappings":"AAAA,OAAO,OAAO,MAAM,SAAS,CAAA;AAI7B,QAAA,MAAM,uBAAuB,SACrB,OAAO,CAAC,OAAO,OAAO,OAAO,CAAC,QAAQ,QAAQ,OAAO,CAAC,YAAY,YAWzE,CAAA;AAID,OAAO,EACL,uBAAuB,EACxB,CAAA"}

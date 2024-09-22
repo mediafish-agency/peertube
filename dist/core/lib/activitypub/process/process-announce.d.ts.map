@@ -1,0 +1,1 @@
+{"version":3,"file":"process-announce.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/activitypub/process/process-announce.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,gBAAgB,EAAE,MAAM,2BAA2B,CAAA;AAK5D,OAAO,EAAE,kBAAkB,EAAE,MAAM,+CAA+C,CAAA;AAMlF,iBAAe,uBAAuB,CAAE,OAAO,EAAE,kBAAkB,CAAC,gBAAgB,CAAC,iBASpF;AAID,OAAO,EACL,uBAAuB,EACxB,CAAA"}

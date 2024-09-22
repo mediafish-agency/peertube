@@ -1,0 +1,2 @@
+Intl.PluralRules&&typeof Intl.PluralRules.__addLocaleData=="function"&&Intl.PluralRules.__addLocaleData({data:{categories:{cardinal:["one","other"],ordinal:["one","two","few","other"]},fn:function(l,o){var e=String(l).split("."),r=!e[1],n=Number(e[0])==l,t=n&&e[0].slice(-1),a=n&&e[0].slice(-2);return o?t==1&&a!=11?"one":t==2&&a!=12?"two":t==3&&a!=13?"few":"other":l==1&&r?"one":"other"}},locale:"en"});
+/**i18n:2f710d33ac9c4f1483429afcadbb48fcf333aac524700807e70179670fe63b48*/

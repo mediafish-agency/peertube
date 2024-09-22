@@ -1,0 +1,1 @@
+{"version":3,"file":"user-right.d.ts","sourceRoot":"","sources":["../../../server/core/middlewares/user-right.ts"],"names":[],"mappings":"AAAA,OAAO,OAAO,MAAM,SAAS,CAAA;AAC7B,OAAO,EAAkB,aAAa,EAAE,MAAM,2BAA2B,CAAA;AAGzE,iBAAS,kBAAkB,CAAE,SAAS,EAAE,aAAa,SAC7B,OAAO,CAAC,OAAO,OAAO,OAAO,CAAC,QAAQ,QAAQ,OAAO,CAAC,YAAY,UAczF;AAID,OAAO,EACL,kBAAkB,EACnB,CAAA"}

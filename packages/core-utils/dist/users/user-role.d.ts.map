@@ -1,0 +1,1 @@
+{"version":3,"file":"user-role.d.ts","sourceRoot":"","sources":["../../src/users/user-role.ts"],"names":[],"mappings":"AAAA,OAAO,EAAa,aAAa,EAAY,YAAY,EAAE,MAAM,2BAA2B,CAAA;AAE5F,eAAO,MAAM,gBAAgB,EAAE;KAAI,EAAE,IAAI,YAAY,GAAI,MAAM;CAI9D,CAAA;AA4BD,wBAAgB,YAAY,CAAE,QAAQ,EAAE,YAAY,EAAE,SAAS,EAAE,aAAa,WAI7E"}

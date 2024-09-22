@@ -1,0 +1,1 @@
+{"version":3,"file":"watch-action.d.ts","sourceRoot":"","sources":["../../../../../server/core/helpers/custom-validators/activitypub/watch-action.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,iBAAiB,EAAE,MAAM,2BAA2B,CAAA;AAK7D,iBAAS,wBAAwB,CAAE,MAAM,EAAE,iBAAiB,WAiB3D;AAID,OAAO,EACL,wBAAwB,EACzB,CAAA"}

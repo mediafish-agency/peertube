@@ -1,0 +1,101 @@
+import { MyUser, User, UserRightType, type NSFWPolicyType, type UserAdminFlagType, type UserRoleType } from '@peertube/peertube-models';
+import { MMyUserFormattable, MUser, MUserDefault, MUserFormattable, MUserNotifSettingChannelDefault, MUserWithNotificationSetting } from '../../types/models/index.js';
+import { AccountModel } from '../account/account.js';
+import { OAuthTokenModel } from '../oauth/oauth-token.js';
+import { SequelizeModel } from '../shared/index.js';
+import { VideoImportModel } from '../video/video-import.js';
+import { UserNotificationSettingModel } from './user-notification-setting.js';
+import { UserExportModel } from './user-export.js';
+export declare class UserModel extends SequelizeModel<UserModel> {
+    password: string;
+    username: string;
+    email: string;
+    pendingEmail: string;
+    emailVerified: boolean;
+    nsfwPolicy: NSFWPolicyType;
+    p2pEnabled: boolean;
+    videosHistoryEnabled: boolean;
+    autoPlayVideo: boolean;
+    autoPlayNextVideo: boolean;
+    autoPlayNextVideoPlaylist: boolean;
+    videoLanguages: string[];
+    adminFlags?: UserAdminFlagType;
+    blocked: boolean;
+    blockedReason: string;
+    role: UserRoleType;
+    videoQuota: number;
+    videoQuotaDaily: number;
+    theme: string;
+    noInstanceConfigWarningModal: boolean;
+    noWelcomeModal: boolean;
+    noAccountSetupWarningModal: boolean;
+    pluginAuth: string;
+    feedToken: string;
+    lastLoginDate: Date;
+    emailPublic: boolean;
+    otpSecret: string;
+    createdAt: Date;
+    updatedAt: Date;
+    Account: Awaited<AccountModel>;
+    NotificationSetting: Awaited<UserNotificationSettingModel>;
+    VideoImports: Awaited<VideoImportModel>[];
+    OAuthTokens: Awaited<OAuthTokenModel>[];
+    UserExports: Awaited<UserExportModel>[];
+    skipPasswordEncryption: boolean;
+    static cryptPasswordIfNeeded(instance: UserModel): Promise<void>;
+    static removeTokenCache(instance: UserModel): void;
+    static countTotal(): Promise<number>;
+    static listForAdminApi(parameters: {
+        start: number;
+        count: number;
+        sort: string;
+        search?: string;
+        blocked?: boolean;
+    }): Promise<{
+        total: number;
+        data: UserModel[];
+    }>;
+    static listWithRight(right: UserRightType): Promise<MUserDefault[]>;
+    static listUserSubscribersOf(actorId: number): Promise<MUserWithNotificationSetting[]>;
+    static listByUsernames(usernames: string[]): Promise<MUserDefault[]>;
+    static loadById(id: number): Promise<MUser>;
+    static loadByIdFull(id: number): Promise<MUserDefault>;
+    static loadByIdWithChannels(id: number, withStats?: boolean): Promise<MUserDefault>;
+    static loadByUsername(username: string): Promise<MUserDefault>;
+    static loadForMeAPI(id: number): Promise<MUserNotifSettingChannelDefault>;
+    static loadByEmail(email: string): Promise<MUserDefault>;
+    static loadByUsernameOrEmail(username: string, email?: string): Promise<MUserDefault>;
+    static loadByVideoId(videoId: number): Promise<MUserDefault>;
+    static loadByVideoImportId(videoImportId: number): Promise<MUserDefault>;
+    static loadByChannelActorId(videoChannelActorId: number): Promise<MUserDefault>;
+    static loadByAccountId(accountId: number): Promise<MUserDefault>;
+    static loadByAccountActorId(accountActorId: number): Promise<MUserDefault>;
+    static loadByLiveId(liveId: number): Promise<MUser>;
+    static generateUserQuotaBaseSQL(options: {
+        daily: boolean;
+        whereUserId: '$userId' | '"UserModel"."id"';
+        onlyMaxResolution: boolean;
+    }): string;
+    static getUserQuota(options: {
+        userId: number;
+        daily: boolean;
+    }): Promise<number>;
+    static getStats(): Promise<{
+        totalUsers: number;
+        totalDailyActiveUsers: number;
+        totalWeeklyActiveUsers: number;
+        totalMonthlyActiveUsers: number;
+        totalHalfYearActiveUsers: number;
+        totalModerators: number;
+        totalAdmins: number;
+    }>;
+    static autoComplete(search: string): Promise<string[]>;
+    hasRight(right: UserRightType): boolean;
+    hasAdminFlag(flag: UserAdminFlagType): number;
+    isPasswordMatch(password: string): false | Promise<boolean>;
+    toFormattedJSON(this: MUserFormattable, parameters?: {
+        withAdminFlags?: boolean;
+    }): User;
+    toMeFormattedJSON(this: MMyUserFormattable): MyUser;
+}
+//# sourceMappingURL=user.d.ts.map

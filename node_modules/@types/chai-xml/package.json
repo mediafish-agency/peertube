@@ -1,0 +1,21 @@
+{
+    "name": "@types/chai-xml",
+    "version": "0.3.6",
+    "description": "TypeScript definitions for chai-xml",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/chai-xml",
+    "license": "MIT",
+    "contributors": [],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/chai-xml"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/chai": "*"
+    },
+    "typesPublisherContentHash": "cba390eee6930921c2e1ffb539db2b16e45dd6460f2c9bfd1f4feec75f3ac181",
+    "typeScriptVersion": "4.8"
+}

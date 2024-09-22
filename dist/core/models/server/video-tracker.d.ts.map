@@ -1,0 +1,1 @@
+{"version":3,"file":"video-tracker.d.ts","sourceRoot":"","sources":["../../../../server/core/models/server/video-tracker.ts"],"names":[],"mappings":"AAGA,OAAO,EAAE,cAAc,EAAE,MAAM,oBAAoB,CAAA;AAEnD,qBAWa,iBAAkB,SAAQ,cAAc,CAAC,iBAAiB,CAAC;IAEtE,SAAS,EAAE,IAAI,CAAA;IAGf,SAAS,EAAE,IAAI,CAAA;IAIf,OAAO,EAAE,MAAM,CAAA;IAIf,SAAS,EAAE,MAAM,CAAA;CAClB"}

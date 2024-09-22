@@ -1,0 +1,1 @@
+{"version":3,"file":"process-accept.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/activitypub/process/process-accept.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,2BAA2B,CAAA;AAE1D,OAAO,EAAE,kBAAkB,EAAE,MAAM,+CAA+C,CAAA;AAIlF,iBAAe,qBAAqB,CAAE,OAAO,EAAE,kBAAkB,CAAC,cAAc,CAAC,iBAKhF;AAID,OAAO,EACL,qBAAqB,EACtB,CAAA"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"process-create.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/activitypub/process/process-create.ts"],"names":[],"mappings":"AAAA,OAAO,EAEL,cAAc,EACd,oBAAoB,EAOrB,MAAM,2BAA2B,CAAA;AAQlC,OAAO,EAAE,kBAAkB,EAAE,MAAM,+CAA+C,CAAA;AAYlF,iBAAe,qBAAqB,CAAE,OAAO,EAAE,kBAAkB,CAAC,cAAc,CAAC,oBAAoB,CAAC,CAAC,gBAiCtG;AAID,OAAO,EACL,qBAAqB,EACtB,CAAA"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"activitypub.d.ts","sourceRoot":"","sources":["../../../server/core/middlewares/activitypub.ts"],"names":[],"mappings":"AAIA,OAAO,EAAE,YAAY,EAAE,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAA;AAMzD,wBAAsB,cAAc,CAAE,GAAG,EAAE,OAAO,EAAE,GAAG,EAAE,QAAQ,EAAE,IAAI,EAAE,YAAY,iCA6BpF;AAED,wBAAgB,oBAAoB,CAAE,GAAG,EAAE,OAAO,EAAE,GAAG,EAAE,QAAQ,EAAE,IAAI,EAAE,YAAY,QAUpF"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"followers-exporter.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/user-import-export/exporters/followers-exporter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,oBAAoB,EAAE,MAAM,6BAA6B,CAAA;AAClE,OAAO,EAAE,mBAAmB,EAAE,MAAM,2BAA2B,CAAA;AAI/D,qBAAa,iBAAkB,SAAQ,oBAAoB,CAAE,mBAAmB,CAAC;IAEzE,MAAM;cAkB8B,mBAAmB;;;IAM7D,OAAO,CAAC,mBAAmB;CAa5B"}

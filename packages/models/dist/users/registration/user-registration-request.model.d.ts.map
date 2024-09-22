@@ -1,0 +1,1 @@
+{"version":3,"file":"user-registration-request.model.d.ts","sourceRoot":"","sources":["../../../src/users/registration/user-registration-request.model.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,0BAA0B,CAAA;AAEvD,MAAM,WAAW,uBAAwB,SAAQ,YAAY;IAC3D,kBAAkB,EAAE,MAAM,CAAA;CAC3B"}

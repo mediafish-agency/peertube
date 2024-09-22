@@ -1,0 +1,63 @@
+# Installation
+> `npm install --save @types/jschannel`
+
+# Summary
+This package contains type definitions for jschannel (https://github.com/yochannah/jschannel).
+
+# Details
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jschannel.
+## [index.d.ts](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jschannel/index.d.ts)
+````ts
+export as namespace Channel;
+
+export function build(config: ChannelConfiguration): MessagingChannel;
+
+export interface MessagingChannel {
+    unbind: (method: string, doNotPublish?: boolean) => boolean;
+    bind: (
+        method: string,
+        callback?: (transaction: MessageTransaction, params: any) => void,
+        doNotPublish?: boolean,
+    ) => MessagingChannel;
+    call: (message: Message) => void;
+    notify: (message: Message) => void;
+    destroy: () => void;
+}
+
+export interface Message {
+    method: string;
+    success?: ((result: any) => void) | undefined;
+    params?: any;
+    timeout?: number | undefined;
+    error?: ((error: any, message: string) => void) | undefined;
+}
+
+export interface ChannelConfiguration {
+    window: Window;
+    origin: string;
+    scope: string;
+    debugOutput?: boolean | undefined;
+    postMessageObserver?: ((origin: string, message: Message) => void) | undefined;
+    gotMessageObserver?: ((origin: string, message: Message) => void) | undefined;
+    onReady?: ((channel: MessagingChannel) => void) | undefined;
+    reconnect?: boolean | undefined;
+    publish?: boolean | undefined;
+    remote?: string | readonly string[] | undefined;
+}
+
+export interface MessageTransaction {
+    delayReturn: (delay: boolean) => boolean;
+    complete: (result: any) => void;
+    error: (error: any, message: string) => void;
+    invoke: (callbackName: string, params: any) => void;
+    completed: () => boolean;
+}
+
+````
+
+### Additional Details
+ * Last updated: Mon, 20 Nov 2023 23:36:24 GMT
+ * Dependencies: none
+
+# Credits
+These definitions were written by [Yitzchok Gottlieb](https://github.com/yitzchok), and [McFlat](https://github.com/McFlat).

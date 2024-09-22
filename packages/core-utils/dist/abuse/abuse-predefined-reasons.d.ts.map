@@ -1,0 +1,1 @@
+{"version":3,"file":"abuse-predefined-reasons.d.ts","sourceRoot":"","sources":["../../src/abuse/abuse-predefined-reasons.ts"],"names":[],"mappings":"AAAA,OAAO,EAA0B,4BAA4B,EAAE,0BAA0B,EAAE,MAAM,2BAA2B,CAAA;AAE5H,eAAO,MAAM,yBAAyB,EAAE;KACrC,GAAG,IAAI,4BAA4B,GAAG,0BAA0B;CAUzD,CAAA"}

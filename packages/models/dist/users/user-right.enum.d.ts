@@ -1,0 +1,38 @@
+export declare const UserRight: {
+    readonly ALL: 0;
+    readonly MANAGE_USERS: 1;
+    readonly MANAGE_SERVER_FOLLOW: 2;
+    readonly MANAGE_LOGS: 3;
+    readonly MANAGE_DEBUG: 4;
+    readonly MANAGE_SERVER_REDUNDANCY: 5;
+    readonly MANAGE_ABUSES: 6;
+    readonly MANAGE_JOBS: 7;
+    readonly MANAGE_CONFIGURATION: 8;
+    readonly MANAGE_INSTANCE_CUSTOM_PAGE: 9;
+    readonly MANAGE_ACCOUNTS_BLOCKLIST: 10;
+    readonly MANAGE_SERVERS_BLOCKLIST: 11;
+    readonly MANAGE_VIDEO_BLACKLIST: 12;
+    readonly MANAGE_ANY_VIDEO_CHANNEL: 13;
+    readonly REMOVE_ANY_VIDEO: 14;
+    readonly REMOVE_ANY_VIDEO_PLAYLIST: 15;
+    readonly MANAGE_ANY_VIDEO_COMMENT: 16;
+    readonly UPDATE_ANY_VIDEO: 17;
+    readonly UPDATE_ANY_VIDEO_PLAYLIST: 18;
+    readonly GET_ANY_LIVE: 19;
+    readonly SEE_ALL_VIDEOS: 20;
+    readonly SEE_ALL_COMMENTS: 21;
+    readonly CHANGE_VIDEO_OWNERSHIP: 22;
+    readonly MANAGE_PLUGINS: 23;
+    readonly MANAGE_VIDEOS_REDUNDANCIES: 24;
+    readonly MANAGE_VIDEO_FILES: 25;
+    readonly RUN_VIDEO_TRANSCODING: 26;
+    readonly MANAGE_VIDEO_IMPORTS: 27;
+    readonly MANAGE_REGISTRATIONS: 28;
+    readonly MANAGE_RUNNERS: 29;
+    readonly MANAGE_USER_EXPORTS: 30;
+    readonly MANAGE_USER_IMPORTS: 31;
+    readonly MANAGE_INSTANCE_WATCHED_WORDS: 32;
+    readonly MANAGE_INSTANCE_AUTO_TAGS: 33;
+};
+export type UserRightType = typeof UserRight[keyof typeof UserRight];
+//# sourceMappingURL=user-right.enum.d.ts.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"video-transcoding.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/job-queue/handlers/video-transcoding.ts"],"names":[],"mappings":"AAeA,OAAO,EAAkB,eAAe,EAAE,MAAM,+BAA+B,CAAA;AAC/E,OAAO,EAAE,GAAG,EAAE,MAAM,QAAQ,CAAA;AAe5B,iBAAe,uBAAuB,CAAE,GAAG,EAAE,GAAG,4BAiC/C;AAID,OAAO,EACL,uBAAuB,EACxB,CAAA"}

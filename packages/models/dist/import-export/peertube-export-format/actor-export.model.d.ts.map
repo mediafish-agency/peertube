@@ -1,0 +1,1 @@
+{"version":3,"file":"actor-export.model.d.ts","sourceRoot":"","sources":["../../../src/import-export/peertube-export-format/actor-export.model.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,kBAAkB;IACjC,KAAK,EAAE,MAAM,CAAA;IACb,GAAG,EAAE,MAAM,CAAA;IACX,SAAS,EAAE,MAAM,CAAA;IACjB,SAAS,EAAE,MAAM,CAAA;CAClB"}

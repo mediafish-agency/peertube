@@ -1,0 +1,1 @@
+{"version":3,"file":"process-follow.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/activitypub/process/process-follow.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,cAAc,EAAE,MAAM,2BAA2B,CAAA;AAW1D,OAAO,EAAE,kBAAkB,EAAE,MAAM,+CAA+C,CAAA;AAMlF,iBAAe,qBAAqB,CAAE,OAAO,EAAE,kBAAkB,CAAC,cAAc,CAAC,iBAOhF;AAID,OAAO,EACL,qBAAqB,EACtB,CAAA"}

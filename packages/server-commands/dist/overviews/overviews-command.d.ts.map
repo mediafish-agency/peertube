@@ -1,0 +1,1 @@
+{"version":3,"file":"overviews-command.d.ts","sourceRoot":"","sources":["../../src/overviews/overviews-command.ts"],"names":[],"mappings":"AAAA,OAAO,EAAkB,cAAc,EAAE,MAAM,2BAA2B,CAAA;AAC1E,OAAO,EAAE,eAAe,EAAE,sBAAsB,EAAE,MAAM,oBAAoB,CAAA;AAE5E,qBAAa,gBAAiB,SAAQ,eAAe;IAEnD,SAAS,CAAE,OAAO,EAAE,sBAAsB,GAAG;QAC3C,IAAI,EAAE,MAAM,CAAA;KACb;CAeF"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"signature.d.ts","sourceRoot":"","sources":["../../../../../server/core/middlewares/validators/activitypub/signature.ts"],"names":[],"mappings":"AAAA,OAAO,OAAO,MAAM,SAAS,CAAA;AAW7B,QAAA,MAAM,kBAAkB,wDAchB,OAAO,CAAC,OAAO,OAAO,OAAO,CAAC,QAAQ,QAAQ,OAAO,CAAC,YAAY,aAOzE,CAAA;AAID,OAAO,EACL,kBAAkB,EACnB,CAAA"}

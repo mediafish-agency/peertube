@@ -1,0 +1,1 @@
+{"version":3,"file":"process-reject.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/activitypub/process/process-reject.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,2BAA2B,CAAA;AAG1D,OAAO,EAAE,kBAAkB,EAAE,MAAM,+CAA+C,CAAA;AAGlF,iBAAe,qBAAqB,CAAE,OAAO,EAAE,kBAAkB,CAAC,cAAc,CAAC,gBAKhF;AAID,OAAO,EACL,qBAAqB,EACtB,CAAA"}

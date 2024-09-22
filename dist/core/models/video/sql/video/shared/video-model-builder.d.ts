@@ -1,0 +1,60 @@
+import { VideoIncludeType } from '@peertube/peertube-models';
+import { VideoModel } from '../../../video.js';
+import { VideoTableAttributes } from './video-table-attributes.js';
+type SQLRow = {
+    [id: string]: string | number;
+};
+export declare class VideoModelBuilder {
+    private readonly mode;
+    private readonly tables;
+    private videosMemo;
+    private videoStreamingPlaylistMemo;
+    private videoFileMemo;
+    private thumbnailsDone;
+    private actorImagesDone;
+    private historyDone;
+    private blacklistDone;
+    private accountBlocklistDone;
+    private serverBlocklistDone;
+    private liveDone;
+    private sourceDone;
+    private redundancyDone;
+    private scheduleVideoUpdateDone;
+    private trackersDone;
+    private tagsDone;
+    private autoTagsDone;
+    private videos;
+    private readonly buildOpts;
+    constructor(mode: 'get' | 'list', tables: VideoTableAttributes);
+    buildVideosFromRows(options: {
+        rows: SQLRow[];
+        include?: VideoIncludeType;
+        rowsWebVideoFiles?: SQLRow[];
+        rowsStreamingPlaylist?: SQLRow[];
+    }): VideoModel[];
+    private reinit;
+    private grabSeparateWebVideoFiles;
+    private grabSeparateStreamingPlaylistFiles;
+    private buildVideoAndAccount;
+    private buildAccount;
+    private buildActor;
+    private setUserHistory;
+    private addActorAvatar;
+    private addThumbnail;
+    private addWebVideoFile;
+    private addStreamingPlaylist;
+    private addStreamingPlaylistFile;
+    private addRedundancy;
+    private addTag;
+    private addAutoTag;
+    private addTracker;
+    private setBlacklisted;
+    private setBlockedOwner;
+    private setBlockedServer;
+    private setScheduleVideoUpdate;
+    private setLive;
+    private setSource;
+    private grab;
+}
+export {};
+//# sourceMappingURL=video-model-builder.d.ts.map

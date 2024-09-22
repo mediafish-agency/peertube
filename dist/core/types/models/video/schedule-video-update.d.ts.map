@@ -1,0 +1,1 @@
+{"version":3,"file":"schedule-video-update.d.ts","sourceRoot":"","sources":["../../../../../server/core/types/models/video/schedule-video-update.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,wBAAwB,EAAE,MAAM,gDAAgD,CAAA;AAIzF,MAAM,MAAM,oBAAoB,GAAG,IAAI,CAAC,wBAAwB,EAAE,OAAO,CAAC,CAAA;AAM1E,MAAM,MAAM,+BAA+B,GAAG,IAAI,CAAC,oBAAoB,EAAE,UAAU,GAAG,SAAS,CAAC,CAAA"}

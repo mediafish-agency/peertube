@@ -1,0 +1,1 @@
+{"version":3,"file":"bulk-command.d.ts","sourceRoot":"","sources":["../../src/bulk/bulk-command.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,wBAAwB,EAAkB,MAAM,2BAA2B,CAAA;AACpF,OAAO,EAAE,eAAe,EAAE,sBAAsB,EAAE,MAAM,oBAAoB,CAAA;AAE5E,qBAAa,WAAY,SAAQ,eAAe;IAE9C,gBAAgB,CAAE,OAAO,EAAE,sBAAsB,GAAG;QAClD,UAAU,EAAE,wBAAwB,CAAA;KACrC;CAYF"}

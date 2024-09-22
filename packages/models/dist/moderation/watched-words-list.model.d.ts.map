@@ -1,0 +1,1 @@
+{"version":3,"file":"watched-words-list.model.d.ts","sourceRoot":"","sources":["../../src/moderation/watched-words-list.model.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,gBAAgB;IAC/B,EAAE,EAAE,MAAM,CAAA;IAEV,QAAQ,EAAE,MAAM,CAAA;IAChB,KAAK,EAAE,MAAM,EAAE,CAAA;IAEf,SAAS,EAAE,IAAI,GAAG,MAAM,CAAA;IACxB,SAAS,EAAE,IAAI,GAAG,MAAM,CAAA;CACzB"}

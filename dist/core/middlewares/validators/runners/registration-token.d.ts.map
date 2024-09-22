@@ -1,0 +1,1 @@
+{"version":3,"file":"registration-token.d.ts","sourceRoot":"","sources":["../../../../../server/core/middlewares/validators/runners/registration-token.ts"],"names":[],"mappings":"AAAA,OAAO,OAAO,MAAM,SAAS,CAAA;AAU7B,QAAA,MAAM,gCAAgC,wDAGxB,OAAO,CAAC,OAAO,OAAO,OAAO,CAAC,QAAQ,QAAQ,OAAO,CAAC,YAAY,sBAiB/E,CAAA;AAID,OAAO,EACL,gCAAgC,EACjC,CAAA"}

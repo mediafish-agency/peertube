@@ -1,0 +1,1 @@
+{"version":3,"file":"user-video-history-export.d.ts","sourceRoot":"","sources":["../../../src/import-export/peertube-export-format/user-video-history-export.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,0BAA0B;IACzC,aAAa,EAAE;QACb,QAAQ,EAAE,MAAM,CAAA;QAChB,YAAY,EAAE,MAAM,CAAA;QACpB,SAAS,EAAE,MAAM,CAAA;QACjB,SAAS,EAAE,MAAM,CAAA;QAEjB,YAAY,CAAC,EAAE,KAAK,CAAA;KACrB,EAAE,CAAA;CACJ"}

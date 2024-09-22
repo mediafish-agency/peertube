@@ -1,0 +1,1 @@
+{"version":3,"file":"storyboard-command.d.ts","sourceRoot":"","sources":["../../src/videos/storyboard-command.ts"],"names":[],"mappings":"AAAA,OAAO,EAAkB,UAAU,EAAE,MAAM,2BAA2B,CAAA;AACtE,OAAO,EAAE,eAAe,EAAE,sBAAsB,EAAE,MAAM,oBAAoB,CAAA;AAE5E,qBAAa,iBAAkB,SAAQ,eAAe;IAEpD,IAAI,CAAE,OAAO,EAAE,sBAAsB,GAAG;QACtC,EAAE,EAAE,MAAM,GAAG,MAAM,CAAA;KACpB;qBAG2C,UAAU,EAAE;;CAQzD"}

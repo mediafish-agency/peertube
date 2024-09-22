@@ -1,0 +1,1 @@
+{"version":3,"file":"pagination.d.ts","sourceRoot":"","sources":["../../../../../server/core/middlewares/validators/activitypub/pagination.ts"],"names":[],"mappings":"AAAA,OAAO,OAAO,MAAM,SAAS,CAAA;AAK7B,QAAA,MAAM,qBAAqB,wDAQnB,OAAO,CAAC,OAAO,OAAO,OAAO,CAAC,QAAQ,QAAQ,OAAO,CAAC,YAAY,aAKzE,CAAA;AAID,OAAO,EACL,qBAAqB,EACtB,CAAA"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"video-stats.d.ts","sourceRoot":"","sources":["../../../../server/core/helpers/custom-validators/video-stats.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,yBAAyB,EAAE,MAAM,2BAA2B,CAAA;AAOrE,iBAAS,0BAA0B,CAAE,KAAK,EAAE,yBAAyB,WAEpE;AAID,OAAO,EACL,0BAA0B,EAC3B,CAAA"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"video-tag.d.ts","sourceRoot":"","sources":["../../../../server/core/models/video/video-tag.ts"],"names":[],"mappings":"AAGA,OAAO,EAAE,cAAc,EAAE,MAAM,oBAAoB,CAAA;AAEnD,qBAWa,aAAc,SAAQ,cAAc,CAAC,aAAa,CAAC;IAE9D,SAAS,EAAE,IAAI,CAAA;IAGf,SAAS,EAAE,IAAI,CAAA;IAIf,OAAO,EAAE,MAAM,CAAA;IAIf,KAAK,EAAE,MAAM,CAAA;CACd"}

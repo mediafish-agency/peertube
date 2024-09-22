@@ -1,0 +1,1 @@
+{"version":3,"file":"webfinger.d.ts","sourceRoot":"","sources":["../../../../server/core/middlewares/validators/webfinger.ts"],"names":[],"mappings":"AAAA,OAAO,OAAO,MAAM,SAAS,CAAA;AAQ7B,QAAA,MAAM,kBAAkB,wDAIV,OAAO,CAAC,OAAO,OAAO,OAAO,CAAC,QAAQ,QAAQ,OAAO,CAAC,YAAY,sBAkB/E,CAAA;AAID,OAAO,EACL,kBAAkB,EACnB,CAAA"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"worker-threads-observers.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/opentelemetry/metric-helpers/worker-threads-observers.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,EAAE,MAAM,oBAAoB,CAAA;AAG1C,qBAAa,6BAA6B;IAE3B,OAAO,CAAC,QAAQ,CAAC,KAAK;gBAAL,KAAK,EAAE,KAAK;IAI1C,cAAc;CAsBf"}

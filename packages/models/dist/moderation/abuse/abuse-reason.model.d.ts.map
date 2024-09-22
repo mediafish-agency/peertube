@@ -1,0 +1,1 @@
+{"version":3,"file":"abuse-reason.model.d.ts","sourceRoot":"","sources":["../../../src/moderation/abuse/abuse-reason.model.ts"],"names":[],"mappings":"AAAA,eAAO,MAAM,sBAAsB;;;;;;;;;CASzB,CAAA;AAEV,MAAM,MAAM,0BAA0B,GAAG,OAAO,sBAAsB,CAAC,MAAM,OAAO,sBAAsB,CAAC,CAAA;AAE3G,MAAM,MAAM,4BAA4B,GACtC,oBAAoB,GACpB,kBAAkB,GAClB,kBAAkB,GAClB,SAAS,GACT,QAAQ,GACR,aAAa,GACb,YAAY,GACZ,UAAU,CAAA"}

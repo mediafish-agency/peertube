@@ -1,0 +1,1 @@
+{"version":3,"file":"video-caption-object.d.ts","sourceRoot":"","sources":["../../../src/activitypub/objects/video-caption-object.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,wBAAwB,EAAE,MAAM,qBAAqB,CAAA;AAE9D,MAAM,WAAW,kBAAmB,SAAQ,wBAAwB;IAClE,sBAAsB,EAAE,OAAO,CAAA;CAChC"}

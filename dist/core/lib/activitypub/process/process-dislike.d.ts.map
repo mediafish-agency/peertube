@@ -1,0 +1,1 @@
+{"version":3,"file":"process-dislike.d.ts","sourceRoot":"","sources":["../../../../../server/core/lib/activitypub/process/process-dislike.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,2BAA2B,CAAA;AAM3D,OAAO,EAAE,kBAAkB,EAAE,MAAM,+CAA+C,CAAA;AAIlF,iBAAe,sBAAsB,CAAE,OAAO,EAAE,kBAAkB,CAAC,eAAe,CAAC,iBAGlF;AAID,OAAO,EACL,sBAAsB,EACvB,CAAA"}

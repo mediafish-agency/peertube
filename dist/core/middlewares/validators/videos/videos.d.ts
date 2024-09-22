@@ -1,0 +1,21 @@
+import { ExpressPromiseHandler } from '../../../types/express-handler.js';
+import express from 'express';
+import { ValidationChain } from 'express-validator';
+import { VideoLoadType } from '../../../lib/model-loaders/video.js';
+export declare const videosAddLegacyValidator: (ValidationChain | ExpressPromiseHandler)[];
+export declare const videosAddResumableValidator: ((req: express.Request, res: express.Response, next: express.NextFunction) => Promise<void>)[];
+export declare const videosAddResumableInitValidator: (ValidationChain | ExpressPromiseHandler)[];
+export declare const videosUpdateValidator: (ValidationChain | ExpressPromiseHandler)[];
+export declare function checkVideoFollowConstraints(req: express.Request, res: express.Response, next: express.NextFunction): Promise<void>;
+type FetchType = Extract<VideoLoadType, 'for-api' | 'all' | 'only-video-and-blacklist' | 'unsafe-only-immutable-attributes'>;
+export declare const videosCustomGetValidator: (fetchType: FetchType) => (ValidationChain | ((req: express.Request, res: express.Response, next: express.NextFunction) => Promise<void>))[];
+export declare const videosGetValidator: (ValidationChain | ((req: express.Request, res: express.Response, next: express.NextFunction) => Promise<void>))[];
+export declare const videoFileMetadataGetValidator: (ValidationChain | ExpressPromiseHandler)[];
+export declare const videosDownloadValidator: (ValidationChain | ((req: express.Request, res: express.Response, next: express.NextFunction) => Promise<void>))[];
+export declare const videosGenerateDownloadValidator: (ValidationChain | ((req: express.Request, res: express.Response, next: express.NextFunction) => void))[];
+export declare const videosRemoveValidator: (ValidationChain | ((req: express.Request, res: express.Response, next: express.NextFunction) => Promise<void>))[];
+export declare const videosOverviewValidator: (ValidationChain | ((req: express.Request, res: express.Response, next: express.NextFunction) => void))[];
+export declare function getCommonVideoEditAttributes(): (ValidationChain | ExpressPromiseHandler)[];
+export declare const commonVideosFiltersValidator: (ValidationChain | ((req: express.Request, res: express.Response, next: express.NextFunction) => false | void))[];
+export {};
+//# sourceMappingURL=videos.d.ts.map

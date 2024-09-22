@@ -1,0 +1,1 @@
+{"version":3,"file":"followers-export.model.d.ts","sourceRoot":"","sources":["../../../src/import-export/peertube-export-format/followers-export.model.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,mBAAmB;IAClC,SAAS,EAAE;QACT,MAAM,EAAE,MAAM,CAAA;QACd,SAAS,EAAE,MAAM,CAAA;QACjB,YAAY,EAAE,MAAM,CAAA;QAEpB,YAAY,CAAC,EAAE,KAAK,CAAA;KACrB,EAAE,CAAA;CACJ"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"themes.d.ts","sourceRoot":"","sources":["../../../../server/core/middlewares/validators/themes.ts"],"names":[],"mappings":"AAAA,OAAO,OAAO,MAAM,SAAS,CAAA;AAQ7B,QAAA,MAAM,sBAAsB,wDAQpB,OAAO,CAAC,OAAO,OAAO,OAAO,CAAC,QAAQ,QAAQ,OAAO,CAAC,YAAY,aAuBzE,CAAA;AAID,OAAO,EACL,sBAAsB,EACvB,CAAA"}

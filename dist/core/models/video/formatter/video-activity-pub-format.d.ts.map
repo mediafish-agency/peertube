@@ -1,0 +1,1 @@
+{"version":3,"file":"video-activity-pub-format.d.ts","sourceRoot":"","sources":["../../../../../server/core/models/video/formatter/video-activity-pub-format.ts"],"names":[],"mappings":"AAAA,OAAO,EAMkC,WAAW,EACnD,MAAM,2BAA2B,CAAA;AAclC,OAAO,EAA4C,QAAQ,EAAc,MAAM,gCAAgC,CAAA;AAI/G,wBAAgB,6BAA6B,CAAE,KAAK,EAAE,QAAQ,GAAG,WAAW,CAgG3E"}

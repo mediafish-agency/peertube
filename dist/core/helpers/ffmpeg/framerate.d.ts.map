@@ -1,0 +1,1 @@
+{"version":3,"file":"framerate.d.ts","sourceRoot":"","sources":["../../../../server/core/helpers/ffmpeg/framerate.ts"],"names":[],"mappings":"AAGA,wBAAgB,gBAAgB,CAAE,OAAO,EAAE;IACzC,QAAQ,EAAE,MAAM,CAAA;IAChB,kBAAkB,EAAE,OAAO,CAAA;IAC3B,UAAU,EAAE,MAAM,CAAA;IAClB,IAAI,EAAE,KAAK,GAAG,MAAM,CAAA;CACrB,UAmCA"}

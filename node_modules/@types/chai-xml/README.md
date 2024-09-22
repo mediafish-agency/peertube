@@ -1,0 +1,52 @@
+# Installation
+> `npm install --save @types/chai-xml`
+
+# Summary
+This package contains type definitions for chai-xml (https://github.com/krampstudio/chai-xml).
+
+# Details
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/chai-xml.
+## [index.d.ts](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/chai-xml/index.d.ts)
+````ts
+/// <reference types="chai" />
+
+declare global {
+    namespace Chai {
+        interface Assertion {
+            xml: ChaiXml.XmlAssertion;
+        }
+    }
+}
+
+declare namespace ChaiXml {
+    interface XmlAssertion extends Chai.Assertion {
+        valid(): XmlAssertion;
+
+        not: XmlAssertion;
+        to: XmlAssertion;
+        be: XmlAssertion;
+        been: XmlAssertion;
+        is: XmlAssertion;
+        that: XmlAssertion;
+        which: XmlAssertion;
+        and: XmlAssertion;
+        has: XmlAssertion;
+        have: XmlAssertion;
+        with: XmlAssertion;
+        at: XmlAssertion;
+        of: XmlAssertion;
+        same: XmlAssertion;
+    }
+}
+
+declare const chaiXml: Chai.ChaiPlugin;
+export = chaiXml;
+
+````
+
+### Additional Details
+ * Last updated: Mon, 29 Jul 2024 19:36:25 GMT
+ * Dependencies: [@types/chai](https://npmjs.com/package/@types/chai)
+
+# Credits
+These definitions were written by .

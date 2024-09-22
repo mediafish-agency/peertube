@@ -1,0 +1,1 @@
+{"version":3,"file":"video-chapters-object.d.ts","sourceRoot":"","sources":["../../../src/activitypub/objects/video-chapters-object.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,mBAAmB;IAClC,EAAE,EAAE,MAAM,CAAA;IACV,OAAO,EAAE,kBAAkB,EAAE,CAAA;CAC9B;AAGD,MAAM,WAAW,kBAAkB;IACjC,IAAI,EAAE,MAAM,CAAA;IACZ,WAAW,EAAE,MAAM,CAAA;IACnB,SAAS,EAAE,MAAM,CAAA;CAClB"}

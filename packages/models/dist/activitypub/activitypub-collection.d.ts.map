@@ -1,0 +1,1 @@
+{"version":3,"file":"activitypub-collection.d.ts","sourceRoot":"","sources":["../../src/activitypub/activitypub-collection.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAA;AAExC,MAAM,WAAW,qBAAqB;IACpC,UAAU,EAAE,GAAG,EAAE,CAAA;IACjB,IAAI,EAAE,YAAY,GAAG,gBAAgB,CAAA;IACrC,UAAU,EAAE,MAAM,CAAA;IAClB,MAAM,CAAC,EAAE,MAAM,CAAA;IACf,KAAK,EAAE,QAAQ,EAAE,CAAA;CAClB"}

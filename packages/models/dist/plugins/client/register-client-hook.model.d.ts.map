@@ -1,0 +1,1 @@
+{"version":3,"file":"register-client-hook.model.d.ts","sourceRoot":"","sources":["../../../src/plugins/client/register-client-hook.model.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,wBAAwB,CAAA;AAEvD,MAAM,WAAW,yBAAyB;IACxC,MAAM,EAAE,cAAc,CAAA;IACtB,OAAO,EAAE,QAAQ,CAAA;IACjB,QAAQ,CAAC,EAAE,MAAM,CAAA;CAClB"}

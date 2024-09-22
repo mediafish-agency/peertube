@@ -1,0 +1,1 @@
+{"version":3,"file":"video-schedule-update.model.d.ts","sourceRoot":"","sources":["../../src/videos/video-schedule-update.model.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,yBAAyB,CAAA;AAEtD,MAAM,WAAW,mBAAmB;IAClC,QAAQ,EAAE,IAAI,GAAG,MAAM,CAAA;IAEvB,OAAO,CAAC,EAAE,OAAO,YAAY,CAAC,MAAM,GAAG,OAAO,YAAY,CAAC,QAAQ,GAAG,OAAO,YAAY,CAAC,QAAQ,CAAA;CACnG"}

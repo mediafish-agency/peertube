@@ -1,0 +1,1 @@
+{"version":3,"file":"socket-io-command.d.ts","sourceRoot":"","sources":["../../src/socket/socket-io-command.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,eAAe,EAAE,sBAAsB,EAAE,MAAM,oBAAoB,CAAA;AAE5E,qBAAa,eAAgB,SAAQ,eAAe;IAElD,yBAAyB,CAAE,OAAO,GAAE,sBAA2B;IAM/D,yBAAyB;IAIzB,gBAAgB,CAAE,OAAO,EAAE;QACzB,WAAW,EAAE,MAAM,CAAA;KACpB;CAMF"}
